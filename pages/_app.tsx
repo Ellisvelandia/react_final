@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Sidebar />
       </div>
       <div className="flex flex-col col-span-12 bg-white lg:col-span-9 rounded-2xl">
-        <Navbar/>
+        <Navbar />
         <Component {...pageProps} />
       </div>
     </div>
