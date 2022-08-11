@@ -30,9 +30,9 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div>
-      <span className="font-bold text-red-600">{activeItem}</span>
-      <div className="flex space-x-3 text-gray-600 font-lg">
+    <div className="flex justify-between px-5 py-3 my-3">
+      <span className="text-xl font-bold text-red-600 border-b-4 border-red-900">{activeItem}</span>
+      <div className="flex space-x-3 text-lg text-gray-600">
         <NavItem
           activeItem={activeItem}
           setActiveItem={setActiveItem}
