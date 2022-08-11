@@ -3,7 +3,9 @@ import React from 'react'
 const index = () => {
   return (
     <div>
-      Hello world
+      <h1>
+      Hello world!
+    </h1>
     </div>
   )
 }
