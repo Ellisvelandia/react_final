@@ -8,13 +8,13 @@ import { CgGames } from "react-icons/cg";
 export const services: IService[] = [
   {
     Icon: RiComputerLine,
-    title: "frontend Dev",
+    title: "Frontend Development",
     about:
       "I can build a beatiful and scalable SPA using <b>HTML<b/>,<b>CSS<b/> and <b>React.js<b/>",
   },
   {
     Icon: FaServer,
-    title: "title",
+    title: "Backend Development",
     about:
       "Handel database, server, api using <b>Expres </b> & other popluar frameworks",
   },
@@ -27,7 +27,7 @@ export const services: IService[] = [
   {
     Icon: MdDeveloperMode,
     title: "Competitive coder",
-    about: "A daily problem solver in <b>HackerRank</b> andf <b>leet code</b> ",
+    about: "A daily problem solver in <b>HackerRank</b> and <b>Leet code</b> ",
   },
   {
     Icon: AiOutlineAntDesign,

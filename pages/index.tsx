@@ -9,7 +9,7 @@ import { services } from "../data";
 
 const index = () => {
   return (
-    <div className="flex flex-col px-6 pt-1">
+    <div className="flex flex-col px-6 pt-1 flex-grow">
       <h5 className="my-3 text-base font-medium">
         I am currently attending a bootcamp polishing my skills as a developer,
         I consider myself self-taught and with skills to learn day by day, I
