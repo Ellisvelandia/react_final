@@ -19,8 +19,8 @@ const Sidebar = () => {
         src={MeImg}
         alt="Me"
         className="mx-auto rounded-full border h-screen max-w-full"
-        height="210px"
-        width="210px"
+        height="180px"
+        width="180px"
         layout="intrinsic"
         quality="100"
       />
