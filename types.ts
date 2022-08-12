@@ -16,8 +16,8 @@ export interface Iproject {
   image_path: string;
   deployed_url: string;
   github_url: string;
-  category: string[];
+  category: Category[];
   key_techs: string[];
 }
 
-export type category = "react" | "node" | "express" | "django" | "mongo";
+export type Category = "react" | "node" | "express" | "django" | "mongo";

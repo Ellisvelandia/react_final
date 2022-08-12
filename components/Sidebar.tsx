@@ -15,12 +15,20 @@ const Sidebar = () => {
 
   return (
     <div>
-      <Image src={MeImg} alt="/" className="mx-auto rounded-full h-22 w-22" />
+      <Image
+        src={MeImg}
+        alt="Me"
+        className="mx-auto rounded-full border h-screen max-w-full"
+        height="210px"
+        width="210px"
+        layout="intrinsic"
+        quality="100"
+      />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-League max-w-full">
         <span className="font-black text-red-700">Ellis</span>
         Velandia
       </h3>
-      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-dark-500 ">
+      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-500 ">
         Developer
       </p>
       <a
@@ -43,12 +51,12 @@ const Sidebar = () => {
         </a>
       </div>
       <div
-        className="py-4 my-5 bg-gray-200 hover:scale-105 dark:bg-dark-500 dark:bg-dark-200"
+        className="py-4 my-5 bg-gray-200 hover:scale-105 dark:bg-dark-500"
         style={{ marginLeft: "1rem", marginRight: "1rem" }}
       >
         <div className="flex items-center justify-center space-x-2">
-          <GoLocation />
-          <span>Colombia, Tolima</span>
+          <GoLocation className="mr-2" />
+          <span>Colombia,Carmen de Apicalá</span>
         </div>
         <p className="my-2 ">eyis619@gmail.com</p>
         <p className="my-2 ">+573125668800</p>

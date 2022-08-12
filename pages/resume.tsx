@@ -4,7 +4,7 @@ import Bar from "../components/Bar";
 
 const resume = () => {
   return (
-    <div className="px-6 py-2 my-10">
+    <div className="px-6 py-2 ">
       <div className="grid gap-6 md:grid-cols-2">
         <div>
           <h5 className="my-3 text-2xl font-bold">Education</h5>
