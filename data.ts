@@ -1,9 +1,11 @@
-import { IService } from "./types";
+import { IService, ISkill } from "./types";
 import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 import { CgGames } from "react-icons/cg";
+
+import { BsCircleFill } from "react-icons/bs";
 
 export const services: IService[] = [
   {
@@ -40,5 +42,61 @@ export const services: IService[] = [
     title: "Canvas and javascript",
     about:
       "interface design and development of 2D, 3D video games using <b>Canvas</b>  and <b>SVG</b>",
+  },
+];
+
+export const languages: ISkill[] = [
+  {
+    Icon: BsCircleFill,
+    name: "TypeScript",
+    level: "45",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Java Script",
+    level: "60",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "React Native",
+    level: "80",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "React",
+    level: "70",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Django",
+    level: "80",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Bootstrap",
+    level: "80",
+  },
+];
+
+export const tools: ISkill[] = [
+  {
+    Icon: BsCircleFill,
+    name: "Google",
+    level: "65",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "GitHub",
+    level: "45",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Visual Studio Code",
+    level: "60",
+  },
+  {
+    Icon: BsCircleFill,
+    name: " ESLint",
+    level: "25",
   },
 ];

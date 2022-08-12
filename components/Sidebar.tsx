@@ -8,8 +8,8 @@ import { GiTie } from "react-icons/gi";
 const Sidebar = () => {
   return (
     <div>
-      <Image src={MeImg} alt="/" className="mx-auto rounded-full h-22 w-22 " />
-      <h3 className="my-4 text-3xl font-medium tracking-wider font-League">
+      <Image src={MeImg} alt="/" className="mx-auto rounded-full h-22 w-22" />
+      <h3 className="my-4 text-3xl font-medium tracking-wider font-League max-w-full">
         <span className="font-black text-red-700">Ellis</span>
         Velandia
       </h3>
