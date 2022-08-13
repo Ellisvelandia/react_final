@@ -55,21 +55,21 @@ const Sidebar = () => {
         style={{ marginLeft: "1rem", marginRight: "1rem" }}
       >
         <div className="flex items-center justify-center space-x-2">
-          <GoLocation className="mr-2" />
+          <GoLocation className="mb-2"/>
           <span>Colombia,Carmen de Apicalá</span>
         </div>
         <p className="my-2 ">eyis619@gmail.com</p>
         <p className="my-2 ">+573125668800</p>
       </div>
       <button
-        className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-red-900 to-red-600 focus:outline-none hover:scale-105"
+        className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-blue-900 to-red-600 focus:outline-none hover:scale-105"
         onClick={() => window.open("mailto:eyis619@gmail.com")}
       >
         Email Me
       </button>
       <button
         onClick={changeTheme}
-        className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-red-900 to-red-600 animate-pulse hover:scale-105"
+        className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-blue-900 to-red-600 animate-pulse hover:scale-105"
       >
         Toggle Theme
       </button>
