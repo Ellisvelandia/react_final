@@ -7,12 +7,18 @@
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
 import { motion } from "framer-motion";
-import { fadeInUp } from "../animation";
+import { fadeInUp, routeAnimation } from "../animation";
 import { stagger } from "../animation";
 
 const index = () => {
   return (
-    <div className="flex flex-col px-6 pt-1 flex-grow">
+    <motion.div
+      className="flex flex-col px-6 pt-1 flex-grow"
+      variants={routeAnimation}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+    >
       <h5 className="my-3 text-base font-medium">
         I am currently attending a bootcamp polishing my skills as a developer,
         I consider myself self-taught and with skills to learn day by day, I
@@ -43,7 +49,7 @@ const index = () => {
           ))}
         </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -36,6 +36,7 @@ const Projects = () => {
         variants={stagger}
         initial="initial"
         animate="animate"
+        exit="exit"
       >
         {projects.map((project) => (
           <motion.div
