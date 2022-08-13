@@ -29,8 +29,6 @@ const index = () => {
         <motion.div
           className="grid gap-6 my-3 md:grid-cols-2"
           variants={stagger}
-          initial="initial"
-          animate="animate"
         >
           {services.map((service) => (
             <motion.div
