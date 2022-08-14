@@ -163,7 +163,7 @@ export const project: Iproject[] = [
     image_path: "/images/coming-soon.png",
     deployed_url: "#",
     github_url: "https://github.com/Ellisvelandia",
-    category: ["django", "react"],
+    category: ["Javascript", "react"],
     description:
       "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
     key_techs: ["React", "Django", "Django REST API"],
@@ -173,7 +173,7 @@ export const project: Iproject[] = [
     id: 6,
     name: "Color Classification using tf.js",
     image_path: "/images/coming-soon.png",
-    deployed_url: "!#",
+    deployed_url: "#",
     github_url: "https://github.com/Ellisvelandia",
     category: ["express"],
     description:
