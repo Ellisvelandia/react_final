@@ -40,19 +40,13 @@ const Sidebar = () => {
         Download Resume
       </a>
       <div className="flex justify-around w-9/12 mx-auto my-5 text-gray-500 md:w-full">
-        <a
-          href="https://www.youtube.com/channel/UCYFh_giIu4C-o1CiL7rFC0Q/videos"
-          target="_blank"
-        >
+        <a href="https://www.youtube.com/channel/UCYFh_giIu4C-o1CiL7rFC0Q/videos">
           <AiFillYoutube className="w-8 h-8 cursor-pointer hover:bg-red-700 hover:text-white" />
         </a>
-        <a href="https://github.com/Ellisvelandia" target="_blank">
+        <a href="https://github.com/Ellisvelandia">
           <AiFillGithub className="w-8 h-8 cursor-pointer hover:bg-gray-900 hover:text-white" />
         </a>
-        <a
-          href="linkedin.com/in/ellis-velandia-caicedo-8bb52423a"
-          target="_blank"
-        >
+        <a href="linkedin.com/in/ellis-velandia-caicedo-8bb52423a">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer hover:bg-sky-500 hover:text-white" />
         </a>
       </div>
