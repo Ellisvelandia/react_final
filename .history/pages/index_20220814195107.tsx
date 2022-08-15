@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 import { fadeInUp, routeAnimation } from "../animation";
 import { stagger } from "../animation";
 
-const About = ({}) => {
+const About = ({endpoint}) => {
   console.log(endpoint);
 
   return (
@@ -60,7 +60,7 @@ export default About;
 export const getServerSideProps: GetServerSideProps = async (
   context: GetServerSidePropsContext
 ) => {
-  console.log(process.env.VERCEL_URL)
+  console.log()
   const res = await fetch(`${process.env.VERCEL_URL}/api/services`);
   const data = await res.json();
   console.log(data);
