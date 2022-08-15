@@ -1,11 +1,15 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<div aling="center">
+<div id="header" align="center">
+
+  <h1 align="center">Hi👋 , Welcome to my Portfolio</h1>
+  
   <img
     src="blob:https://vercel.com/57bcd9eb-fa21-46e2-b636-9c88f300849a"
-    alt="portfolio"
+    width="600"
+    height="250"
   />
-</div>;
+</div>
 
 ## Deploy on Vercel
 
