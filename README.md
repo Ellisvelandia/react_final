@@ -4,11 +4,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
   <h1 align="center">Hi👋 , Welcome to my Portfolio</h1>
   
-  <img
-    src="blob:https://vercel.com/57bcd9eb-fa21-46e2-b636-9c88f300849a"
-    width="600"
-    height="250"
-  />
+  ![portfolio](https://user-images.githubusercontent.com/100318892/184566282-1db8bdc4-6bde-4a0b-b6b6-070b625eb4d5.png)
+
 </div>
 
 ## Deploy on Vercel
