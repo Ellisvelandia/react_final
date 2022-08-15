@@ -76,5 +76,3 @@ export const getServerSideProps: GetServerSideProps = async (
 //   console.log({ services });
 //   return { props: { services: services } };
 // };
-
-export default About;

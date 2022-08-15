@@ -10,7 +10,6 @@ import { services } from "../data";
 import { motion } from "framer-motion";
 import { fadeInUp, routeAnimation } from "../animation";
 import { stagger } from "../animation";
-
 const About: NextPage = () => {
 
   return (
@@ -55,6 +54,7 @@ const About: NextPage = () => {
   );
 };
 
+export default About;
 
 export const getServerSideProps: GetServerSideProps = async (
   context: GetServerSidePropsContext
@@ -76,5 +76,3 @@ export const getServerSideProps: GetServerSideProps = async (
 //   console.log({ services });
 //   return { props: { services: services } };
 // };
-
-export default About;

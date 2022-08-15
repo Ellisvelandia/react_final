@@ -1,3 +1,4 @@
+import { IconType } from "react-icons";
 import { FunctionComponent } from "react";
 import { IconType } from "react-icons";
 
