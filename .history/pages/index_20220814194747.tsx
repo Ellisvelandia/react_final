@@ -10,7 +10,8 @@ import { motion } from "framer-motion";
 import { fadeInUp, routeAnimation } from "../animation";
 import { stagger } from "../animation";
 
-const About = ({endpoint}) => {
+  return { props: { endpoint: process.env.VERCEL_URL } };
+  const About = ({}) => {
   console.log(endpoint);
 
   return (

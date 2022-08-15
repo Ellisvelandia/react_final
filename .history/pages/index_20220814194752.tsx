@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 import { fadeInUp, routeAnimation } from "../animation";
 import { stagger } from "../animation";
 
-const About = ({endpoint}) => {
+const About = ({}) => {
   console.log(endpoint);
 
   return (

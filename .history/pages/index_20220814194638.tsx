@@ -10,8 +10,9 @@ import { motion } from "framer-motion";
 import { fadeInUp, routeAnimation } from "../animation";
 import { stagger } from "../animation";
 
-const About = ({endpoint}) => {
-  console.log(endpoint);
+const index = ({endpoint}) => {
+
+  console.log(endpoint)
 
   return (
     <motion.div
@@ -55,7 +56,7 @@ const About = ({endpoint}) => {
   );
 };
 
-export default About;
+export default index;
 
 export const getServerSideProps: GetServerSideProps = async (
   context: GetServerSidePropsContext
